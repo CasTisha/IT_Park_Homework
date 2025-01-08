@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sixtyfour&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<form method="get">
+		<table cellspacing="3">
+			<tr>
+				<td class="header">
+					<h1>Birthday party</h1>
+				</td>
+			</tr>
+			<tr>
+				<td class="main">
+					<div>
+						<p>Yes, I can make it:</p>
+						<input type="radio" name="choice" value="for-sure">
+						<label>For sure</label>
+						<br>
+						<input type="radio" name="choice" value="not-sure">
+						<label>Not sure</label>
+						<br>
+						<input type="radio" name="choice" value="i-can't">
+						<label>Sorry, I can't</label>
+					</div>
+					<div>
+						<p>Number of people:</p>
+						<select name="people">
+							<option value="just-me">just me</option>
+							<option value="two">two</option>
+							<option value="three">three</option>
+						</select>
+					</div>
+					<div>
+						<p>Your comments:</p>
+						<textarea name="comment"></textarea>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td class="footer">
+					<input type="submit" value="Submit">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

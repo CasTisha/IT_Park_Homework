@@ -1,0 +1,19 @@
+body {
+	margin: 200px 0px;
+}
+
+div {
+	width: 120px;
+	margin: 0 auto;
+	font-size: 21px;
+}
+
+p {
+	margin: 0px 0px 4px 0px;
+	color: blue;
+}
+
+p:first-letter {
+	color: red;
+	font-size: 35px;
+}

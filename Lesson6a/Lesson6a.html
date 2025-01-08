@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+<body>
+	<form method="get">
+		<fieldset>
+			<legend>Пожалуйста, сообщите свои данные:</legend>	
+			<br>
+			<label>Ваше имя:</label>
+			<br>
+			<input type="text" name="name">
+			<br>
+			<br>
+			<label>Ваш пароль:</label>
+			<br>
+			<input type="password" name="password">
+			<br>
+			<br>
+			<label>Ваш сайт:</label>
+			<br>
+			<input type="url" name="url">
+			<br>
+			<br>
+			<label>Возраст:</label>
+			<br>
+			<input type="radio" name="age" value="0-5-years">
+			<label>0-5 лет</label>
+			<input type="radio" name="age" value="5-12-years">
+			<label>5-12 лет</label>
+			<input type="radio" name="age" value="12-20-years">
+			<label>12-20 лет</label>
+			<input type="radio" name="age" value="from-20-years">
+			<label>от 20 лет</label>
+			<br>
+			<br>
+			<label>Увлечения:</label>
+			<br>
+			<input type="checkbox" name="hobbies" value="computers-and-internet">
+			<label>Компьютеры и интернет</label>
+			<input type="checkbox" name="hobbies" value="literature-and-art">
+			<label>Литература и искусство</label>
+			<input type="checkbox" name="hobbies" value="music-and-dance">
+			<label>Музыка и танцы</label>
+			<input type="checkbox" name="hobbies" value="cars">
+			<label>Автомобили</label>
+			<input type="checkbox" name="hobbies" value="sport-active-leisure">
+			<label>Спорт и активный отдых</label>
+			<br>
+			<br>
+			<label>Ваша фотография:</label>
+			<br>
+			<input type="file" name="photo">
+			<br>
+			<br>
+			<input type="search" name="search">
+			<label>Что вы хотите найти?</label>
+			<br>
+			<br>
+			<label>Выберите число: 0, 5 или 10</label>
+			<input type="number" name="number" min="0" max="10" step="5">
+			<br>
+			<br>
+			<label>Календарь:</label>
+			<input type="date" value="date">
+			<br>
+			<br>
+			<label>Ползунок</label>
+			<br>
+			<input type="range" name="range">
+			<br>
+			<br>
+			<textarea name="comment" name="comment" rows="11" cols="40" placeholder="Ваш комментарий..."></textarea>
+			<br>
+			<br>
+			<label>В каком городе вы живете?</label>
+			<br>
+			<select name="city" size="4">
+				<option value="moscow">Москва</option>
+				<option value="kirov">Киров</option>
+				<option value="saratov">Саратов</option>
+				<option value="kazan">Казань</option>
+				<option value="arkhangelsk">Архангельск</option>
+				<option value="smolensk">Смоленск</option>
+			</select>
+
+
+			<br>
+			<br>
+			<input type="submit" value="Отправить данные">
+			<input type="reset" value="Очистить поля формы">
+		</fieldset>
+	</form>
+</body>
+</html>

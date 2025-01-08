@@ -1,0 +1,23 @@
+.bg {
+	border: 3px solid rgb(226, 240, 243);
+	background-color: rgb(226, 240, 243);
+	border-radius: 10px;
+	width: 320px;
+	height: 320px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.text1 {
+	font-size: 30px;
+	font-style: italic;
+	width: 267px;
+	margin-bottom: 18px;
+}
+
+.text2 {
+	font-size: 20px;
+	font-family: arial;
+	font-weight: bold;
+	color: rgb(28, 176, 181);
+}

@@ -1,0 +1,23 @@
+.p_1 {
+	width: 500px;
+	background-color: yellow;
+	font-family: "Arial";
+	font-size: 1em;
+	
+}
+
+#p_2 {
+	font-variant: small-caps;
+	
+}
+
+.p_3 {
+	width: 500px;
+	background-color: violet;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#p_4 {
+	font-style: italic;
+}

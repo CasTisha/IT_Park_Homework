@@ -1,0 +1,151 @@
+.bg {
+	border: 3px solid gray;
+	border-radius: 10px;
+	width: 350px;
+	height: 335px;
+	padding: 0px 10px;
+}
+
+.header {
+	border: 1px solid mediumorchid;
+	background-color: mediumorchid;
+	width: 100%;
+	height: 45px;
+	margin-top: 10px;
+	border-radius: 5px;
+	color: white;
+	font-family: Arial;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+span {
+	padding-left: 10px;
+}
+
+.main {
+	padding: 0px 20px;
+}
+
+.row {
+	height: 50px;
+	margin: 30px 0px;
+}
+
+.box1 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: rgb(231, 231, 205);
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.row div:hover {
+	border: 4px solid mediumorchid;
+}
+
+.box2 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: white;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box3 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: LightBlue;
+	width: 45px;	
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box4 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: rgb(254, 254, 33);
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box5 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: seagreen;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+}
+
+.box6 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: brown;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box7 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: red;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box8 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: orange;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box9 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: pink;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box10 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: grey;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+}
+
+.box11 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: blue;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box12 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: violet;
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	margin-right: 13px;
+}
+
+.box13 {
+	border: 1px solid rgb(205, 205, 189);
+	background-color: rgb(26, 24, 24);
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+}

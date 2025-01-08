@@ -1,0 +1,27 @@
+.bg {
+	border: 1px solid #4a4646;
+	background-color: #4a4646;
+	width: 520px;
+	height: 348px;
+}
+
+.main {
+	padding: 15px 0px 15px 15px;
+}
+
+.row1 {
+	margin-bottom: 13px;
+}
+
+.box {
+	border: 1px solid #242426;
+	background-color: #242426;
+	width: 150px;
+	padding: 65px 0px;
+	display: inline-block;
+	margin-right: 13px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.63);
+	font-size: 18px;
+}
+

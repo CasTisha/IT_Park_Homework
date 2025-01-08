@@ -1,0 +1,15 @@
+em:hover {
+	color: orange;
+}
+
+p {
+	color: red;
+}
+
+p:first-letter {
+	color: blue;
+}
+
+a:visited {
+	color: green;
+}

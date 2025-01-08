@@ -1,0 +1,17 @@
+body {
+	background-color: NavajoWhite;
+}
+
+div {
+	margin-left: 30px;
+	border-left: 3px dashed blue;
+}
+
+p {
+	text-indent: 25px;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 22px;
+	margin: 40px 25px;
+	width: 310px;
+}
