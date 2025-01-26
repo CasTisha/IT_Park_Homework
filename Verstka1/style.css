@@ -14,7 +14,7 @@ section {
 	padding: 20px;
 }
 
-h1	{
+h1, h2, p {
 	font-family: sans-serif;
 	font-size: 26px;
 	color: white;
@@ -55,7 +55,7 @@ h1	{
 	margin-right: 13px;
 }
 
-.main-article > h1 {
+.main-article > h2 {
 	margin-bottom: 10px;
 }
 
