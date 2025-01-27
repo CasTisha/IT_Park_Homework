@@ -20,7 +20,7 @@ form {
 .main {
 	border: 1px solid rgb(255, 240, 244);
 	background-color: rgb(255, 240, 244);
-	height: 270px;
+	height: 275px;
 	padding: 0 20px;
 	margin-bottom: 2px;
 }
@@ -73,8 +73,9 @@ input[type="submit"]:active {
 	background-color: rgb(214, 56, 112);
 }
 
-
-
+.choice div {
+	margin: 2px 0;
+}
 
 
 
