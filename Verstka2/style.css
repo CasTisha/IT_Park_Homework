@@ -83,18 +83,38 @@ h1 {
 	background-image: url(img/IBandBG.png);
 }
 
+.picture1:hover + span {
+	color: deepskyblue;
+}
+
 .science .picture2 {
 	background-image: url(img/SAM.png);
+}
+
+.picture2:hover + span {
+	color: deepskyblue;
 }
 
 .science .picture3 {
 	background-image: url(img/IAGaG.png);
 }
 
+.picture3:hover + span {
+	color: deepskyblue;
+}
+
 .science .picture4 {
 	background-image: url(img/Fond.png);
 }
 
+.picture4:hover + span {
+	color: deepskyblue;
+}
+
 .science .picture5 {
 	background-image: url(img/fmba.png);
+}
+
+.picture5:hover + span {
+	color: deepskyblue;
 }
