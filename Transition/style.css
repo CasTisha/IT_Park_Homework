@@ -82,16 +82,29 @@
 	width: 100%;
 }
 
+.box7:hover div  {
+	width: 100%;
+}
+
 .box7-1 {
 	border: 1px solid #000;
 	width: 350px;
 	height: 40px;
 	text-align: center;
 	transition: 2s;
-	transition-timing-function: steps(6);
+	transition-timing-function: steps(6)
 }
 
-.box7:hover {
+.box7-2 {
+	border: 1px solid #000;
+	width: 350px;
+	height: 40px;
+	text-align: center;
+	transition: 2s;
+	transition-timing-function: steps(4)
+}
+
+.box8:hover .box8-1 {
 	width: 100%;
 }
 
@@ -103,12 +116,10 @@
 
 .box8-1 {
 	transition: 3s;
-	transition-timing-function: steps(6);
+	width: 0px;
+	height: 40px;
+	background-color: red;
 }
 
-.box8-1:hover {
-	background-color: red;
-	width: 100%;
-}
 
 
