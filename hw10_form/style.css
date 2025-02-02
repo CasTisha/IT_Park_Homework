@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Outfit";
+}
+
+section {
+	background-image: url(img/Bridge.jpg);
+	background-size: cover;
+	border: 1px solid #000;
+	width: 307px;
+	padding: 45px;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%
+}
+
+.box {
+	width: 100%;
+	z-index: 1;
+}
+
+.reg {
+	display: inline-block;
+}
+
+.header {
+	margin-bottom: 30px;
+}
+
+.header a {
+	margin-right: 12px;
+	color: rgba(255, 255, 255, 0.75);
+}
+
+
+.header .reg:last-child {
+	margin-right: 0;
+}
+
+.header .reg a {
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: rgb(255, 255, 255);
+	border-bottom: 1.5px solid rgb(208, 95, 95);
+}
+
+form p {
+	font-size: 14px;
+	margin-bottom: 3px;
+	color: #f1eded;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+	height: 30px;
+	width: 100%;
+}
+
+input[type="text"],
+input[type="password"] {
+	background-color: rgba(255,255,255,0);
+	border: 1px solid rgba(255, 255, 255, 0.75);
+	padding: 0 10px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+	color: #f1eded;
+}
+
+
+input[type="checkbox"] {
+	vertical-align: -2px;
+}
+
+.date {
+	margin-bottom: 8px;
+}
+
+.remember label {
+	color: #f1eded;
+}
+
+.remember label,
+.footer .reg a {
+	font-size: 12px;
+}
+
+.footer .reg a {
+	color: rgba(181, 171, 171, 0.703)
+}
+
+.footer a:hover {
+	color: rgb(255, 255, 255)
+}
+
+input[type="submit"] {
+	font-size: 16px;
+	margin: 23px 0 16px 0;
+	background-color: rgb(73, 202, 150);
+	border: none;
+	color: #f1eded;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: rgba(72, 197, 147, 0.95);
+}
+
+.footer .reg {
+	margin-right: 20px;
+}
+
+.footer .reg:last-child {
+	margin-right: 0;
+}
+
+
+
