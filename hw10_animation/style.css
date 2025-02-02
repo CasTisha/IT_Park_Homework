@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: #423b3b;
+	padding: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.circle {
+	margin-right: 20px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.circle:last-child {
+	margin-right: 0;
+}
+
+.circle.yellow {
+	background-color: yellow;
+	animation-name: circle1;
+	animation-duration: 0.8s;
+	animation-delay: 1s;
+	
+}
+
+@keyframes circle1 {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(3);
+		box-shadow: 0px 0px 10px 0 yellow;
+	}
+
+	100% {
+
+	}
+}
+
+.circle.greenyellow {
+	background-color: greenyellow;
+	animation-name: circle2;
+	animation-duration: 0.8s;
+	animation-delay: 1.3s;
+	
+}
+
+@keyframes circle2 {
+	0% {
+
+	}
+
+	50% {
+		transform: scale(3);
+		box-shadow: 0px 0px 20px 0 greenyellow;
+	}
+
+	100% {
+
+	}
+}
+
+.circle.cyan {
+	background-color: cyan;
+	animation-name: circle3;
+	animation-duration: 0.8s;
+	animation-delay: 1.6s;
+}
+
+@keyframes circle3 {
+	0% {
+
+	}
+
+	50% {
+		transform: scale(3);
+		box-shadow: 0px 0px 20px 0 cyan;
+	}
+
+	100% {
+
+	}
+}
+
+.circle.red {
+	background-color: red;
+	animation-name: circle4;
+	animation-duration: 0.8s;
+	animation-delay: 1.9s;
+}
+
+@keyframes circle4 {
+	0% {
+
+	}
+
+	50% {
+		transform: scale(3);
+		box-shadow: 0px 0px 20px 0 red;
+	}
+
+	100% {
+
+	}
+}
+
+.circle.violet {
+	background-color: violet;
+	animation-name: circle5;
+	animation-duration: 0.8s;
+	animation-delay: 2.2s;
+}
+
+@keyframes circle5 {
+	0% {
+
+	}
+
+	50% {
+		transform: scale(3);
+		box-shadow: 0px 0px 20px 0 violet;
+	}
+
+	100% {
+
+	}
+}
