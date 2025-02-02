@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	background-color: #423b3b;
+	padding: 60px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
+
+.circle {
+	margin-right: 20px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	animation-name: sap;
+	animation-duration: 2.2s;
+	animation-iteration-count: infinite;
+}
+
+.circle:last-child {
+	margin-right: 0;
+}
+
+.circle.yellow {
+	background-color: yellow;
+	animation-name: sap;
+	animation-delay: 0.2s;
+	box-shadow: 0 0 15px 0 yellow;
+	
+}
+
+.circle.greenyellow {
+	background-color: greenyellow;
+	animation-name: sap;
+	animation-delay: 0.4s;
+	box-shadow: 0 0 15px 0 greenyellow;
+	
+}
+
+.circle.cyan {
+	background-color: cyan;
+	animation-name: sap;
+	animation-delay: 0.6s;
+	box-shadow: 0 0 15px 0 cyan;
+}
+
+.circle.red {
+	background-color: red;
+	animation-name: sap;
+	animation-delay: 0.8s;
+	box-shadow: 0 0 15px 0 red;
+}
+
+.circle.violet {
+	background-color: violet;
+	animation-name: sap;
+	animation-delay: 1s;
+	box-shadow: 0 0 15px 0 violet;
+}
+
+@keyframes sap {
+	0% {
+		transform: scale(0.8);
+	}
+
+	50% {
+		transform: scale(2);
+	}
+
+	100% {
+		transform: scale(0.8);
+	}
+}
