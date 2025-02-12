@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 10px;
+}
+
+.box1, .box2, .box3 {
+	/* border: 1px solid red; */
+	width: 1000px;
+}
+
+.box1 label, .box2 label, .box3 label {
+	border: 1px solid black;
+	display: block;
+	padding: 10px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+h2 {
+	display: inline-block;
+	margin-right: 830px;
+	font-weight: lighter;
+	font-size: 17px;
+}
+
+p {
+	margin: 15px 0;
+	display: none;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+#top {
+	display: none;
+}
+
+label:hover {
+	background-color: pink;
+}
+
+#choice1:checked ~ .box1 > label[for="choice1"] + p,
+#choice2:checked ~ .box2 > label[for="choice2"] + p,
+#choice3:checked ~ .box3 > label[for="choice3"] + p {
+	display: block;
+}
+
+#choice1:checked ~ .box1 > label[for="choice1"],
+#choice2:checked ~ .box2 > label[for="choice2"],
+#choice3:checked ~ .box3 > label[for="choice3"] {
+	background-color: pink;
+}
+
+#choice1:checked ~ .box1 #bottom,
+#choice2:checked ~ .box2 #bottom,
+#choice3:checked ~ .box3 #bottom {
+	display: none;
+}
+
+#choice1:checked ~ .box1 #top,
+#choice2:checked ~ .box2 #top,
+#choice3:checked ~ .box3 #top {
+	display: inline-block;
+}
