@@ -142,4 +142,149 @@
 // let array = ["Привет, ", "мир", "!"];
 // alert(array[0] + array[1] + array[2]);
 
+// let arr = [-2, 2, -3, 4, 5];
+// let i = 0;
+// let a = 0;
+// while (i < arr.length) {
+// 	if (arr[i] > 0) {
+// 		a += arr[i];
+// 	}
+// 	i++;
+// }
+// console.log(a);
 
+// let arr = [2, 3, 4, 5, 6];
+// let i = 0;
+// while (i < arr.length) {
+// 	if (arr[i] == 4) {
+// 		console.log("Есть");
+// 		break;
+// 	} 
+// 	i++;
+// }
+
+//Задачи2
+
+//1
+// let i = 2;
+// while (i <= 100) {
+// 	if (i % 2 == 0) {
+// 		console.log(i);
+// 	}
+// 	i++;
+// }
+
+//2
+// let i = 1;
+// let sum = 0;
+// while (i < 99) {
+// 	if (i % 2 == 1) {
+// 		sum = sum + i;
+// 	}
+// 	i++;
+// }
+// console.log(sum);
+
+//3
+// let a = prompt("Введите число");
+// let i = 0;
+// while (i < a.length) {
+// 	console.log(a.length);
+// 	i++;
+// }
+
+//4
+// let arr = [1, 3, 3, 4, 5, 6];
+// let i = 0;
+// let sumEvenNumber = 0;
+// let sumOddNumber = 0;
+// while (i < arr.length) {
+// 	if (arr[i] % 2 == 0) {
+// 		sumEvenNumber++;
+// 	} else if (arr[i] % 2 == 1) {
+// 		sumOddNumber++;
+// 	}
+// 	i++;
+// }
+// console.log(sumEvenNumber);
+// console.log(sumOddNumber);
+
+//5
+// let arr = [2, 3, 1, 4, 5];
+// let i = 0;
+// let sum = 0;
+// let raz = 0;
+// while (i < arr.length) {
+// 	sum += arr[i];
+// 	raz -= arr[i];
+// 	i++;
+// }
+// console.log(sum);
+// console.log(raz);
+
+//6
+// let arr = [1, -5, 2, 6, -4, 1];
+// console.log(Math.min(...arr));
+// console.log(Math.max(...arr));
+
+//7
+// for (i = 2; i <= 100; i++) {
+// 	if (i % 2 == 0) {
+// 		console.log(i);
+// 	}
+// }
+// let a = 2;
+// while (a <= 100) {
+// 	if (i % 2 == 0) {
+// 		console.log(i);
+// 	}
+// 	i++;
+// }
+
+//8
+// let sum = 0;
+// for (i = 1; i <= 99; i++) {
+// 	if (i % 2 == 1) {
+// 		sum += i;
+// 	}
+// }
+// console.log(sum);
+// let a = 1;
+// let sum = 0;
+// while (a <= 99) {
+// 	if (a % 2 == 1) {
+// 		sum += a;
+// 	}
+// 	a++;
+// }
+// console.log(sum);
+
+//9
+// let number = 123456;
+// let i = 0;
+// while (i < number.length) {
+// 	if (i == 3) {
+// 		console.log()
+// 	}
+// 	i++;
+// }
+
+//10 
+// let k = 2;
+// let n = 10;
+// while (k < n) {
+// 	console.log(k);
+// 	k++;
+// }
+
+//11
+// for (i = 1; i < 50; i++) {
+// 	console.log(i);
+// }
+
+//12
+// for (i = 0; i < 100; i++) {
+// 	if (i % 2 == 0) {
+// 		console.log(i);
+// 	}
+// }
