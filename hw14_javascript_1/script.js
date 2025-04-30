@@ -223,9 +223,42 @@
 // console.log(raz);
 
 //6
+// способ через объект math и ее функци min и max
 // let arr = [1, -5, 2, 6, -4, 1];
 // console.log(Math.min(...arr));
 // console.log(Math.max(...arr));
+//ручной способ без применения объекта Math
+// let array = [2, 4, 5, 9, 0, -2, -10];
+// let max = 0;
+// let min = 0; 
+// for (let i = 0; i < array.length; i++) {
+// 	if (min > array[i]) {
+// 		min = array[i];
+// 	};
+// 	if (max < array[i]) {
+// 		max = array[i];
+// 	};
+// }
+// console.log(max);
+// console.log(min);
+//третий способ но другой синтаксис
+// let array = [2, 4, 5, 9, 0, -2, -10];
+// let max = array[0];
+// let min = array[0];
+// let i = 0;
+// while (i < array.length) {
+// 	if (array[i] > max) {
+// 		max = array[i];
+// 	};
+// 	if (array[i] < min) {
+// 		min = array[i];
+// 	};
+// 	i++;
+// }
+// console.log(min);
+// console.log(max);
+
+
 
 //7
 // for (i = 2; i <= 100; i++) {
@@ -261,13 +294,13 @@
 
 //9
 // let number = 123456;
-// let i = 0;
-// while (i < number.length) {
-// 	if (i == 3) {
-// 		console.log()  ??????????????????????????????????
-// 	}
-// 	i++;
-// }
+// let one = (Math.floor(number / 100000));
+// let two = (Math.floor((number / 10000) % 10));
+// let four = (Math.floor((number / 100) % 10));
+// let five = (Math.floor((number / 10) % 10));
+// let six = (Math.floor(number % 10));
+// let result = String(one) + two + four + five + six;
+// console.log(Number(result));
 
 //10 
 // let k = 2;
@@ -288,3 +321,4 @@
 // 		console.log(i);
 // 	}
 // }
+
