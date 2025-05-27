@@ -364,5 +364,62 @@
 // console.log(arr);
 
 //Задача. Отсортируйте 5 случайных чисел от 1 до 10 в порядке возрастания и затем в порядке убывания.
+// let arr1 = [];
+// let arr2 = [];
+// let num;
+// for (let i = 1; i <= 5; i++) {
+// 	let randomNumber = Math.round(Math.random(1)*10);
+// 	arr1.push(randomNumber);
+// 		for (let j = 0; j < arr1.length; j++) {
+// 			for (let k = 0; k < arr1.length; k++) {
+// 				if (arr1[k] > arr1[k + 1]) {
+// 					num = arr1[k];
+// 					arr1[k] = arr1[k + 1];
+// 					arr1[k + 1] = num;
+// 				}
+// 			}
+// 		}
+// 	arr2.push(randomNumber);
+// 		for (let j = 0; j < arr2.length; j++) {
+// 			for (let k = 0; k < arr2.length; k++) {
+// 				if (arr2[k] > arr2[k + 1]) {
+// 					num = arr2[k];
+// 					arr2[k] = arr2[k + 1];
+// 					arr2[k + 1] = num;
+// 				}
+// 			}
+// 		}
+// }
+// arr2.reverse();
+// let arr = arr1.concat(arr2);
+// console.log(arr);
+
+//Задача. Отсортируйте массив объектов по свойству age в порядке возрастания.
+let user = [
+	{
+		name: "John",
+		age: 17
+	},
+	{
+		name: "Bob",
+		age: 25
+	},
+	{
+		name: "Ana",
+		age: 21
+	}
+];
+let num;
+for (let i = 0; i < user.length; i++) {
+	for (let j = 0; j < user.length - 1; j++) {
+		if (user[j]['age'] > user[j + 1]['age']) {
+			num = user[j]['age'];
+			user[j]['age'] = user[j + 1]['age'];
+			user[j + 1]['age'] = num;
+		} 
+	}
+}
+console.log(user);
+
 
 
