@@ -395,31 +395,31 @@
 // console.log(arr);
 
 //Задача. Отсортируйте массив объектов по свойству age в порядке возрастания.
-let user = [
-	{
-		name: "John",
-		age: 17
-	},
-	{
-		name: "Bob",
-		age: 25
-	},
-	{
-		name: "Ana",
-		age: 21
-	}
-];
-let num;
-for (let i = 0; i < user.length; i++) {
-	for (let j = 0; j < user.length - 1; j++) {
-		if (user[j]['age'] > user[j + 1]['age']) {
-			num = user[j]['age'];
-			user[j]['age'] = user[j + 1]['age'];
-			user[j + 1]['age'] = num;
-		} 
-	}
-}
-console.log(user);
+// let user = [
+// 	{
+// 		name: "John",
+// 		age: 17
+// 	},
+// 	{
+// 		name: "Bob",
+// 		age: 25
+// 	},
+// 	{
+// 		name: "Ana",
+// 		age: 21
+// 	}
+// ];
+// let num;
+// for (let i = 0; i < user.length; i++) {
+// 	for (let j = 0; j < user.length - 1; j++) {
+// 		if (user[j]['age'] > user[j + 1]['age']) {
+// 			num = user[j]['age'];
+// 			user[j]['age'] = user[j + 1]['age'];
+// 			user[j + 1]['age'] = num;
+// 		} 
+// 	}
+// }
+// console.log(user);
 
 
 
