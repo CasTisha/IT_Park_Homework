@@ -166,5 +166,117 @@
 
 
 //Задача. Дана некоторая строка с числом:'1234567'. Отделите тройки цифр пробелами, начиная с конца числа. В нашем случае должно получится следующее: '1 234 567'
-let str = "1234567";
+// let str = "1234567";
+// let arr = str.split("");
 
+// for (let i = arr.length - 3; i >= 0; i -= 3) {
+// 	arr.splice(i, 0, " ");
+// }
+// let nArr = arr.join("");
+// console.log(nArr);
+
+//Задача. Дана некоторая строка: 'AbCdE'. Смените регистр букв этой строки на противоположный. В нашем случае должно получится следующее:'aBcDe'
+
+// let str = "AbCdE";
+// let arr = str.split("");
+// for (let i = 0; i < arr.length; i++) {
+// 	if ((i + 1) % 2 == 1) {
+// 		a = arr[i].toLowerCase();
+// 		arr.splice(i, 1, a);
+// 	}
+// 	if ((i + 1) % 2 == 0) {
+// 		a = arr[i].toUpperCase();
+// 		arr.splice(i, 1, a);
+// 	}
+// }
+// let newStr = arr.join("")
+// console.log(newStr);
+
+
+//Задача. Дан некоторый массив с числами, например, вот такой: [1, 2, 3, 4, 5,6]. Слейте пары элементов вместе: [12, 34, 56].
+// let arr = [1, 2, 3, 4, 5, 6];
+// let newArr = [];
+// for (let i = 0; i < arr.length; i += 2) {
+// 	newArr.push(String(arr[i]) + String(arr[i + 1]));
+// }
+// console.log(newArr);
+
+
+// Задача. Дана некоторая строка со словами: 'aaa bbb ccc eee fff'. Сделайте заглавным первый символ каждого второго слова в этой строке. В нашем случае должно получится следующее: 'aaa Bbb ccc Eee fff'
+// let str = 'aaa bbb ccc eee fff';
+// let arr = str.split(" ");
+// for (let i = 1; i < arr.length; i += 2) {
+// 	arr[i] = arr[i][0].toUpperCase() + arr[i].slice(1);
+// }
+// console.log(arr);
+
+//Задача. Дана некоторая строка:'a bc def ghij'. Переведите в верхний регистр все подстроки, в которых количество букв меньше или равно трем. В нашем случае должно получится следующее: 'A BC DEF ghij'
+// let str = 'a bc def ghij';
+// let arr = str.split(" "); 
+// for (let i = 0; i < arr.length; i++) {
+// 	for (let j = 0; j < arr[i].length; j++) {
+// 		if (arr[i].length <= 3) {
+// 			arr[i] = arr[i].toUpperCase();
+// 		}
+// 	}
+// }
+// let a = arr.join(" ")
+// console.log(a)
+
+//Задача. Дан символ. Узнайте, в каком регистре этот символ - в верхнем или нижнем.
+// a = "А";
+// if (a == a.toLowerCase()) {
+// 	console.log("В нижнем регистре");
+// } else if (a == a.toUpperCase()) {
+// 	console.log("в верхнем регистре")
+// }
+
+//Задача. Дано некоторое число, например, такое: 123789 Удалите из этого числа все нечетные цифры. В нашем случае получится такой результат: 28.
+// let num = 123789; 
+// let str = String(num);
+// let arr = str.split("");
+// for (let i = arr.length - 1; i >= 0; i--) {
+// 	if (arr[i] % 2 == 1) {
+// 		arr.splice(i, 1);
+// 	}
+// } 
+// console.log(arr);
+
+
+//Задача. Даны два массива: let arr1 = [1, 2, 3]; let arr2 = ['a', 'b', 'c']; Слейте эти массивы в новый массив следующим образом: [1, 2, 'a', 'b', 'c', 3].
+// let arr1 = [1, 2, 3];
+// let arr2 = ["a", "b", "c"];
+// let res = arr1.slice(0, 2).concat(arr2).concat(arr1[2]);
+// console.log(res);
+
+
+//Задача. Дана строка с буквами и цифрами. Проверьте, что в этой строке не более трех букв.
+// let a = "213kas2";
+// let arr = a.split("");
+// for (let i = arr.length - 1; i >= 0; i--) {
+// 	if (arr[i] == 0 || arr[i] == 1 || arr[i] == 2 || arr[i] == 3 || arr[i] == 4 || arr[i] == 5 || arr[i] == 6 || arr[i] == 7 || arr[i] == 8 || arr[i] == 9) {
+// 		arr.splice(i, 1);
+// 	}
+// }
+// if (arr.length < 3) {
+// 	console.log("Не более трех букв");
+// } else if (arr.length == 3) {
+// 	console.log("Три буквы");
+// } else {
+// 	console.log("Более трех букв");
+// }
+
+
+// Задача. Дан массив с числами:[1, 2, 3, 3, 4, 5]. Проверьте, что в этом массиве есть два одинаковых элемента подряд.
+// let arr = [1, 2, 3, 3, 4, 5];
+// let flag = false;
+// for (let i = 0; i < arr.length; i++) {
+// 	if (arr[i] == arr[i + 1]) {
+// 		console.log("Существует два одинаковых элемента подряд.")
+// 		flag = true
+// 		break;
+// 	}
+// }
+// if (flag == false) {
+// 	console.log("Не существует");
+// }
